@@ -46,7 +46,7 @@ public class ReservasDAO {
 
         return null;
     }
-
+    
     public List<Reservas> buscarTodas() {
         EntityManager em = PersistenceUtil.getEntityManager();
         Query query = em.createQuery("from Reservas As a");

@@ -5,10 +5,12 @@ br\cesjf\hotellucena\converter\CategoriaConverter.class
 br\cesjf\hotellucena\controller\ReservasBean.class
 br\cesjf\hotellucena\util\PersistenceUtil.class
 br\cesjf\hotellucena\model\Apartamento_.class
+br\cesjf\hotellucena\util\Relatorio.class
 br\cesjf\hotellucena\controller\LoginManagedBean.class
 br\cesjf\hotellucena\model\Item.class
 br\cesjf\hotellucena\controller\ItemBean.class
 br\cesjf\hotellucena\controller\CategoriaBean.class
+br\cesjf\hotellucena\util\ProcessReport.class
 br\cesjf\hotellucena\model\Categoria.class
 login\filter\LoginFilter.class
 br\cesjf\hotellucena\controller\ConsultaApartamentoBean.class
@@ -18,6 +20,7 @@ br\cesjf\hotellucena\converter\UsuarioConverter.class
 br\cesjf\hotellucena\model\Usuarios_.class
 br\cesjf\hotellucena\model\Categoria_.class
 br\cesjf\hotellucena\model\Reservas_.class
+br\cesjf\hotellucena\controller\RelatorioBean.class
 br\cesjf\hotellucena\dao\CategoriaDAO.class
 br\cesjf\hotellucena\model\Item_.class
 br\cesjf\hotellucena\controller\ApartamentoBean.class
