@@ -24,6 +24,9 @@
                     <p:menuitem value="Relatório" icon="ui-icon-print" url="faces/relatorio.xhtml"/>
                     <p:menuitem value="Exibir Relatórios" icon="ui-icon-print" url="faces/relatorios.xhtml"/>
                     </p:submenu>
+                 <p:submenu label="Graficos" icon="ui-icon-print" rendered="#{usuario.tipoUsuariol.equals('Gerente')}">
+                    <p:menuitem value="DashBoard" icon="ui-icon-print" url="faces/graficos.xhtml" />
+                     </p:submenu>
                 <p:menuitem value="Logout" icon="ui-icon-home" url="faces/login.xhtml" action="#{usuariosBean.logout()}" ajax="false" />
             </p:menubar>
         </h:form>

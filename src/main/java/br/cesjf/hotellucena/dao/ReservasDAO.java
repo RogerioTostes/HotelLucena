@@ -110,4 +110,9 @@ public class ReservasDAO {
         em.getTransaction().commit();
     }
 
+    public List<Reservas> buscarReservados() {
+        EntityManager em = PersistenceUtil.getEntityManager();
+        Query query = em.createQuery("from Reservas As a where a.status = 'Reservado'");
+        return query.getResultList();
+    }
 }
